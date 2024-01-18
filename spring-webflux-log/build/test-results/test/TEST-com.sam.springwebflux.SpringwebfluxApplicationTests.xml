@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sam.springwebflux.SpringwebfluxApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-01-18T23:17:58" hostname="MORPHEU.station" time="0.912">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.sam.springwebflux.SpringwebfluxApplicationTests" time="0.912"/>
+  <system-out><![CDATA[23:17:55.256 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sam.springwebflux.SpringwebfluxApplicationTests]: SpringwebfluxApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+23:17:55.347 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.sam.springwebflux.SpringwebfluxApplication for test class com.sam.springwebflux.SpringwebfluxApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.1)
+
+2024-01-18T23:17:55.737Z  INFO 56511 --- [    Test worker] c.s.s.SpringwebfluxApplicationTests      : Starting SpringwebfluxApplicationTests using Java 19 with PID 56511 (started by samuelteixeira in /Users/samuelteixeira/Documents/spring-all/spring-webflux-metrics)
+2024-01-18T23:17:55.739Z  INFO 56511 --- [    Test worker] c.s.s.SpringwebfluxApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-01-18T23:17:57.793Z  INFO 56511 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2024-01-18T23:17:58.312Z  INFO 56511 --- [    Test worker] c.s.s.SpringwebfluxApplicationTests      : Started SpringwebfluxApplicationTests in 2.815 seconds (process running for 3.949)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
