@@ -13,10 +13,7 @@ public class LoggingController {
 
     // Declaring ANSI_RESET so that we can reset the color
     public static final String ANSI_RESET = "\u001B[0m";
-
-
     public static final String ANSI_RED = "\u001B[31m";
-    // Declaring the color
     public static final String ANSI_YELLOW = "\u001B[33m";
 
     Logger logger = LoggerFactory.getLogger(LoggingController.class);

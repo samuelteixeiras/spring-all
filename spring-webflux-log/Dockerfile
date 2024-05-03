@@ -21,8 +21,11 @@ ENV LANG C.UTF-8
 ENV JAVA_HOME=/usr/lib/jvm/default-jvm
 ENV PATH=$PATH:/usr/lib/jvm/default-jvm/bin
 
-RUN mkdir /app
 WORKDIR /app
-COPY run.sh .
-COPY build/libs/spring*SNAPSHOT.jar app.jar
-ENTRYPOINT ["/app/run.sh"]
+CMD ["./gradlew", "clean", "bootJar"]
+COPY build/libs/*.jar app.jar
+
+EXPOSE 8080
+ENTRYPOINT ["java",  "-jar", "app.jar"]
+
+
