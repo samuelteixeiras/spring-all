@@ -43,8 +43,9 @@ Icon
 ### Gradle ###
 # Exclude Folder List #
 .gradle/
-build/
-
+build/*
+/build/**
+!/build/**/
 
 ### Eclipse ###
 *.pydevproject
