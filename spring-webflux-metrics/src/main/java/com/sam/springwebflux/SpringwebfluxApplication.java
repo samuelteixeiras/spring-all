@@ -2,19 +2,20 @@ package com.sam.springwebflux;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.util.Assert;
-import org.springframework.util.StringUtils;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.boot.web.embedded.netty.NettyServerCustomizer;
+import org.springframework.context.annotation.Bean;
 
-import java.util.Map;
-import java.util.Set;
+import java.util.function.Function;
 
 @SpringBootApplication
 public class SpringwebfluxApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringwebfluxApplication.class, args);
+	}
+
+	@Bean
+	public NettyServerCustomizer nettyServerCustomizer(){
+		return httpServer -> httpServer.metrics(true, Function.identity());
 	}
 }
