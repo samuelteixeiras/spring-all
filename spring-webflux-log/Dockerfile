@@ -1,3 +1,11 @@
+FROM gradle:latest AS BUILD
+ENV HOME_DIR=/gradleBuild
+WORKDIR $HOME_DIR
+COPY src/ $HOME_DIR/src
+COPY gradle/ $HOME_DIR/gradle
+COPY build.gradle settings.gradle gradlew $HOME_DIR/
+RUN gradle build -x test || return 0
+
 FROM alpine:3.19
 
 ARG version=17.0.11.9.1
@@ -21,11 +29,9 @@ ENV LANG C.UTF-8
 ENV JAVA_HOME=/usr/lib/jvm/default-jvm
 ENV PATH=$PATH:/usr/lib/jvm/default-jvm/bin
 
-WORKDIR /app
-CMD ["./gradlew", "clean", "bootJar"]
-COPY build/libs/*.jar app.jar
-
+ENV APP_DIR=/app
+WORKDIR $APP_DIR
+COPY --from=BUILD  /gradleBuild/build/libs/spring*SNAPSHOT.jar app.jar
+ENV JAVA_OPTS="-Xmx2g -Xms2g -XX:+UseStringDeduplication -XX:GCTimeRatio=19 -XX:MaxGCPauseMillis=500 -XX:+ParallelRefProcEnabled -XX:ParallelGCThreads=12"
 EXPOSE 8080
-ENTRYPOINT ["java",  "-jar", "app.jar"]
-
-
+CMD ["sh", "-c", "java -Dspring.profiles.active=dockerdev $JAVA_OPTS -jar app.jar"]
