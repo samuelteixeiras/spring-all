@@ -12,6 +12,6 @@ public class HelloWorldController {
 
     @GetMapping
     public Mono<String> helloWorld() {
-        return Mono.just("Hello World!!");
+        return Mono.just("Hello World, live from Ireland!!");
     }
 }
