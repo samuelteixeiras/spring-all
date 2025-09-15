@@ -1,0 +1,440 @@
+url: http://localhost:8080/actuator/metrics/application.ready.times
+time_namelookup:  0.000015s
+time_connect:  0.000207s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000235s
+time_redirect:  0.000000s
+time_starttransfer:  0.005359s
+                     ----------
+time_total:  0.005380s
+
+url: http://localhost:8080/actuator/metrics/application.started.times
+time_namelookup:  0.000012s
+time_connect:  0.000197s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000220s
+time_redirect:  0.000000s
+time_starttransfer:  0.004078s
+                     ----------
+time_total:  0.004127s
+
+url: http://localhost:8080/actuator/metrics/disk.frees
+time_namelookup:  0.000012s
+time_connect:  0.000182s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000204s
+time_redirect:  0.000000s
+time_starttransfer:  0.004118s
+                     ----------
+time_total:  0.004165s
+
+url: http://localhost:8080/actuator/metrics/disk.totals
+time_namelookup:  0.000010s
+time_connect:  0.000202s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000223s
+time_redirect:  0.000000s
+time_starttransfer:  0.004548s
+                     ----------
+time_total:  0.004601s
+
+url: http://localhost:8080/actuator/metrics/executor.actives
+time_namelookup:  0.000014s
+time_connect:  0.000143s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000158s
+time_redirect:  0.000000s
+time_starttransfer:  0.004005s
+                     ----------
+time_total:  0.004057s
+
+url: http://localhost:8080/actuator/metrics/executor.completeds
+time_namelookup:  0.000010s
+time_connect:  0.000180s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000201s
+time_redirect:  0.000000s
+time_starttransfer:  0.004425s
+                     ----------
+time_total:  0.004470s
+
+url: http://localhost:8080/actuator/metrics/executor.pool.cores
+time_namelookup:  0.000011s
+time_connect:  0.000187s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000203s
+time_redirect:  0.000000s
+time_starttransfer:  0.004500s
+                     ----------
+time_total:  0.004518s
+
+url: http://localhost:8080/actuator/metrics/executor.pool.maxs
+time_namelookup:  0.000010s
+time_connect:  0.000175s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000195s
+time_redirect:  0.000000s
+time_starttransfer:  0.004808s
+                     ----------
+time_total:  0.004825s
+
+url: http://localhost:8080/actuator/metrics/executor.pool.sizes
+time_namelookup:  0.000010s
+time_connect:  0.000166s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000181s
+time_redirect:  0.000000s
+time_starttransfer:  0.004965s
+                     ----------
+time_total:  0.005017s
+
+url: http://localhost:8080/actuator/metrics/executor.queue.remainings
+time_namelookup:  0.000010s
+time_connect:  0.000173s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000192s
+time_redirect:  0.000000s
+time_starttransfer:  0.003909s
+                     ----------
+time_total:  0.003923s
+
+url: http://localhost:8080/actuator/metrics/executor.queueds
+time_namelookup:  0.000013s
+time_connect:  0.000193s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000214s
+time_redirect:  0.000000s
+time_starttransfer:  0.005102s
+                     ----------
+time_total:  0.005157s
+
+url: http://localhost:8080/actuator/metrics/http.server.requestss
+time_namelookup:  0.000009s
+time_connect:  0.000144s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000160s
+time_redirect:  0.000000s
+time_starttransfer:  0.004340s
+                     ----------
+time_total:  0.004399s
+
+url: http://localhost:8080/actuator/metrics/http.server.requests.actives
+time_namelookup:  0.000013s
+time_connect:  0.000179s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000199s
+time_redirect:  0.000000s
+time_starttransfer:  0.004559s
+                     ----------
+time_total:  0.004613s
+
+url: http://localhost:8080/actuator/metrics/jvm.buffer.counts
+time_namelookup:  0.000011s
+time_connect:  0.000168s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000183s
+time_redirect:  0.000000s
+time_starttransfer:  0.005362s
+                     ----------
+time_total:  0.005378s
+
+url: http://localhost:8080/actuator/metrics/jvm.buffer.memory.useds
+time_namelookup:  0.000009s
+time_connect:  0.000169s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000187s
+time_redirect:  0.000000s
+time_starttransfer:  0.004111s
+                     ----------
+time_total:  0.004167s
+
+url: http://localhost:8080/actuator/metrics/jvm.buffer.total.capacitys
+time_namelookup:  0.000010s
+time_connect:  0.000154s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000170s
+time_redirect:  0.000000s
+time_starttransfer:  0.006995s
+                     ----------
+time_total:  0.007046s
+
+url: http://localhost:8080/actuator/metrics/jvm.classes.loadeds
+time_namelookup:  0.000010s
+time_connect:  0.000172s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000193s
+time_redirect:  0.000000s
+time_starttransfer:  0.002999s
+                     ----------
+time_total:  0.003051s
+
+url: http://localhost:8080/actuator/metrics/jvm.classes.unloadeds
+time_namelookup:  0.000009s
+time_connect:  0.000161s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000179s
+time_redirect:  0.000000s
+time_starttransfer:  0.003421s
+                     ----------
+time_total:  0.003478s
+
+url: http://localhost:8080/actuator/metrics/jvm.compilation.times
+time_namelookup:  0.000010s
+time_connect:  0.000173s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000193s
+time_redirect:  0.000000s
+time_starttransfer:  0.003384s
+                     ----------
+time_total:  0.003440s
+
+url: http://localhost:8080/actuator/metrics/jvm.gc.live.data.sizes
+time_namelookup:  0.000014s
+time_connect:  0.000127s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000146s
+time_redirect:  0.000000s
+time_starttransfer:  0.003561s
+                     ----------
+time_total:  0.003577s
+
+url: http://localhost:8080/actuator/metrics/jvm.gc.max.data.sizes
+time_namelookup:  0.000008s
+time_connect:  0.000146s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000163s
+time_redirect:  0.000000s
+time_starttransfer:  0.004514s
+                     ----------
+time_total:  0.004559s
+
+url: http://localhost:8080/actuator/metrics/jvm.gc.memory.allocateds
+time_namelookup:  0.000015s
+time_connect:  0.000214s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000231s
+time_redirect:  0.000000s
+time_starttransfer:  0.001587s
+                     ----------
+time_total:  0.001630s
+
+url: http://localhost:8080/actuator/metrics/jvm.gc.memory.promoteds
+time_namelookup:  0.000010s
+time_connect:  0.000126s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000144s
+time_redirect:  0.000000s
+time_starttransfer:  0.002744s
+                     ----------
+time_total:  0.002801s
+
+url: http://localhost:8080/actuator/metrics/jvm.gc.overheads
+time_namelookup:  0.000011s
+time_connect:  0.000148s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000169s
+time_redirect:  0.000000s
+time_starttransfer:  0.005025s
+                     ----------
+time_total:  0.005078s
+
+url: http://localhost:8080/actuator/metrics/jvm.gc.pauses
+time_namelookup:  0.000010s
+time_connect:  0.000166s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000186s
+time_redirect:  0.000000s
+time_starttransfer:  0.003423s
+                     ----------
+time_total:  0.003479s
+
+url: http://localhost:8080/actuator/metrics/jvm.infos
+time_namelookup:  0.000009s
+time_connect:  0.000162s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000181s
+time_redirect:  0.000000s
+time_starttransfer:  0.004078s
+                     ----------
+time_total:  0.004138s
+
+url: http://localhost:8080/actuator/metrics/jvm.memory.committeds
+time_namelookup:  0.000017s
+time_connect:  0.000180s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000201s
+time_redirect:  0.000000s
+time_starttransfer:  0.003680s
+                     ----------
+time_total:  0.003696s
+
+url: http://localhost:8080/actuator/metrics/jvm.memory.maxs
+time_namelookup:  0.000012s
+time_connect:  0.000164s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000183s
+time_redirect:  0.000000s
+time_starttransfer:  0.004593s
+                     ----------
+time_total:  0.004650s
+
+url: http://localhost:8080/actuator/metrics/jvm.memory.usage.after.gcs
+time_namelookup:  0.000013s
+time_connect:  0.000189s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000208s
+time_redirect:  0.000000s
+time_starttransfer:  0.004419s
+                     ----------
+time_total:  0.004435s
+
+url: http://localhost:8080/actuator/metrics/jvm.memory.useds
+time_namelookup:  0.000008s
+time_connect:  0.000146s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000160s
+time_redirect:  0.000000s
+time_starttransfer:  0.004161s
+                     ----------
+time_total:  0.004216s
+
+url: http://localhost:8080/actuator/metrics/jvm.threads.daemons
+time_namelookup:  0.000011s
+time_connect:  0.000152s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000170s
+time_redirect:  0.000000s
+time_starttransfer:  0.003820s
+                     ----------
+time_total:  0.003876s
+
+url: http://localhost:8080/actuator/metrics/jvm.threads.lives
+time_namelookup:  0.000009s
+time_connect:  0.000167s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000185s
+time_redirect:  0.000000s
+time_starttransfer:  0.003643s
+                     ----------
+time_total:  0.003703s
+
+url: http://localhost:8080/actuator/metrics/jvm.threads.peaks
+time_namelookup:  0.000013s
+time_connect:  0.000174s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000193s
+time_redirect:  0.000000s
+time_starttransfer:  0.004066s
+                     ----------
+time_total:  0.004128s
+
+url: http://localhost:8080/actuator/metrics/jvm.threads.starteds
+time_namelookup:  0.000009s
+time_connect:  0.000136s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000151s
+time_redirect:  0.000000s
+time_starttransfer:  0.006288s
+                     ----------
+time_total:  0.006345s
+
+url: http://localhost:8080/actuator/metrics/jvm.threads.statess
+time_namelookup:  0.000009s
+time_connect:  0.000122s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000141s
+time_redirect:  0.000000s
+time_starttransfer:  0.003337s
+                     ----------
+time_total:  0.003391s
+
+url: http://localhost:8080/actuator/metrics/logback.eventss
+time_namelookup:  0.000010s
+time_connect:  0.000177s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000199s
+time_redirect:  0.000000s
+time_starttransfer:  0.002061s
+                     ----------
+time_total:  0.002105s
+
+url: http://localhost:8080/actuator/metrics/process.cpu.usages
+time_namelookup:  0.000014s
+time_connect:  0.000195s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000213s
+time_redirect:  0.000000s
+time_starttransfer:  0.003281s
+                     ----------
+time_total:  0.003336s
+
+url: http://localhost:8080/actuator/metrics/process.files.maxs
+time_namelookup:  0.000009s
+time_connect:  0.000146s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000168s
+time_redirect:  0.000000s
+time_starttransfer:  0.003185s
+                     ----------
+time_total:  0.003241s
+
+url: http://localhost:8080/actuator/metrics/process.files.opens
+time_namelookup:  0.000010s
+time_connect:  0.000138s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000157s
+time_redirect:  0.000000s
+time_starttransfer:  0.003558s
+                     ----------
+time_total:  0.003611s
+
+url: http://localhost:8080/actuator/metrics/process.start.times
+time_namelookup:  0.000009s
+time_connect:  0.000157s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000176s
+time_redirect:  0.000000s
+time_starttransfer:  0.003590s
+                     ----------
+time_total:  0.003645s
+
+url: http://localhost:8080/actuator/metrics/process.uptimes
+time_namelookup:  0.000010s
+time_connect:  0.000112s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000128s
+time_redirect:  0.000000s
+time_starttransfer:  0.003814s
+                     ----------
+time_total:  0.003867s
+
+url: http://localhost:8080/actuator/metrics/system.cpu.counts
+time_namelookup:  0.000010s
+time_connect:  0.000162s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000181s
+time_redirect:  0.000000s
+time_starttransfer:  0.006269s
+                     ----------
+time_total:  0.006324s
+
+url: http://localhost:8080/actuator/metrics/system.cpu.usages
+time_namelookup:  0.000010s
+time_connect:  0.000123s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000142s
+time_redirect:  0.000000s
+time_starttransfer:  0.002898s
+                     ----------
+time_total:  0.002953s
+
+url: http://localhost:8080/actuator/metrics/system.load.average.1ms
+time_namelookup:  0.000013s
+time_connect:  0.000122s
+time_appconnect:  0.000000s
+time_pretransfer:  0.000145s
+time_redirect:  0.000000s
+time_starttransfer:  0.001614s
+                     ----------
+time_total:  0.001654s
+

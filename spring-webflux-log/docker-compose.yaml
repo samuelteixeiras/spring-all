@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  spring-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - SPRING_PROFILES_ACTIVE=dockerdev
+    volumes:
+      - ./src:/gradleBuild/src
+      - ./gradle:/gradleBuild/gradle
+      - ./build.gradle:/gradleBuild/build.gradle
+      - ./settings.gradle:/gradleBuild/settings.gradle
+      - ./gradlew:/gradleBuild/gradlew
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.spring-app.rule=Host(`spring.localhost`)"
+      - "traefik.http.services.spring-app.loadbalancer.server.port=9090"
+    networks:
+      - traefik-public
+
+networks:
+  traefik-public:
+    external: true

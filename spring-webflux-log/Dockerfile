@@ -33,5 +33,5 @@ ENV APP_DIR=/app
 WORKDIR $APP_DIR
 COPY --from=BUILD  /gradleBuild/build/libs/spring*SNAPSHOT.jar app.jar
 ENV JAVA_OPTS="-Xmx600m -Xms128m -XX:+UseStringDeduplication -XX:GCTimeRatio=19 -XX:MaxGCPauseMillis=500 -XX:+ParallelRefProcEnabled -XX:ParallelGCThreads=12"
-EXPOSE 8080
+EXPOSE 9090
 CMD ["sh", "-c", "java -Dspring.profiles.active=dockerdev $JAVA_OPTS -jar app.jar"]
